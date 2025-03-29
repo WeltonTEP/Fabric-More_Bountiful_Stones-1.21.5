@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/granite/granite_polished_cut_plank_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/granite/granite_polished_cut_planks"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/granite/granite_polished_cut_plank_slab_top"
+    }
+  }
+}

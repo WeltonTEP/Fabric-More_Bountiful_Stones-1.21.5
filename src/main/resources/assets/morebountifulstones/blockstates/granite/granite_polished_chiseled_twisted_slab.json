@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/granite/granite_polished_chiseled_twisted_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/granite/granite_polished_chiseled_twisted"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/granite/granite_polished_chiseled_twisted_slab_top"
+    }
+  }
+}

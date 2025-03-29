@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_chiseled_pillar_horizontal_x"
+    },
+    "axis=y": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_chiseled_pillar"
+    },
+    "axis=z": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_chiseled_pillar_horizontal_z"
+    }
+  }
+}

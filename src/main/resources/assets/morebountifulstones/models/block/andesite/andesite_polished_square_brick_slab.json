@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "morebountifulstones:block/andesite/andesite_polished_square_bricks",
+    "side": "morebountifulstones:block/andesite/andesite_polished_square_bricks",
+    "top": "morebountifulstones:block/andesite/andesite_polished_square_bricks"
+  }
+}

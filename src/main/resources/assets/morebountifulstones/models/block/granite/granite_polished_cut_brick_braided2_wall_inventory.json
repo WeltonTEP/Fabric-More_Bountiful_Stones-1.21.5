@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "morebountifulstones:block/granite/granite_polished_cut_bricks_braided2"
+  }
+}

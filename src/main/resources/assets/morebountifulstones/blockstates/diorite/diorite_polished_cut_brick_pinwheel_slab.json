@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_cut_brick_pinwheel_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_cut_bricks_pinwheel"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_cut_brick_pinwheel_slab_top"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#":
+       "morebountifulstones:granite/granite_polished_cut"
+
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "morebountifulstones:granite/granite_polished_cut_wall"
+  }
+}

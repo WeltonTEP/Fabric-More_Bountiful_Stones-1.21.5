@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/granite/granite_smooth_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/granite/granite_smooth"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/granite/granite_smooth_slab_top"
+    }
+  }
+}

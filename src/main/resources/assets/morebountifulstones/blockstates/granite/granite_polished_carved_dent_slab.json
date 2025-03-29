@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/granite/granite_polished_carved_dent_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/granite/granite_polished_carved_dent"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/granite/granite_polished_carved_dent_slab_top"
+    }
+  }
+}

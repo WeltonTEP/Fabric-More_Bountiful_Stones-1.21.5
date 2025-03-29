@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "key": {
+    "#":
+       "morebountifulstones:andesite/andesite_polished_pillar2"
+
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "morebountifulstones:andesite/andesite_polished_pillar2_stairs"
+  }
+}

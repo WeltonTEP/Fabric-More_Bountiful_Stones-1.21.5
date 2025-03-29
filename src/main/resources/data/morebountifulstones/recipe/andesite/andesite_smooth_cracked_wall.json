@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#":
+       "morebountifulstones:andesite/andesite_smooth_cracked"
+
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "morebountifulstones:andesite/andesite_smooth_cracked_wall"
+  }
+}

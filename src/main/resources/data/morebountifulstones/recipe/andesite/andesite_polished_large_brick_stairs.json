@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "key": {
+    "#":
+       "morebountifulstones:andesite/andesite_polished_large_bricks"
+
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "morebountifulstones:andesite/andesite_polished_large_brick_stairs"
+  }
+}

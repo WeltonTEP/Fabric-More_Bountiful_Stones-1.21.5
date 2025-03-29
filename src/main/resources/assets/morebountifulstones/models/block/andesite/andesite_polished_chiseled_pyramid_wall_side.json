@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "morebountifulstones:block/andesite/andesite_polished_chiseled_pyramid"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_carved_mosaic_pillar_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_carved_mosaic_pillar_slab_double"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_carved_mosaic_pillar_slab_top"
+    }
+  }
+}

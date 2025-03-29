@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "morebountifulstones:block/granite/granite_polished_pillar_horizontal_x"
+    },
+    "axis=y": {
+      "model": "morebountifulstones:block/granite/granite_polished_pillar"
+    },
+    "axis=z": {
+      "model": "morebountifulstones:block/granite/granite_polished_pillar_horizontal_z"
+    }
+  }
+}

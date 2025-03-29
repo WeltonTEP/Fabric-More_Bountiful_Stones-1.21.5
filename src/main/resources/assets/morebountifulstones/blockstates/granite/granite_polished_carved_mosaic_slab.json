@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/granite/granite_polished_carved_mosaic_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/granite/granite_polished_carved_mosaic"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/granite/granite_polished_carved_mosaic_slab_top"
+    }
+  }
+}

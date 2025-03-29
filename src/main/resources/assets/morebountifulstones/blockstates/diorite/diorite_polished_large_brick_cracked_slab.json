@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_large_brick_cracked_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_large_bricks_cracked"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_large_brick_cracked_slab_top"
+    }
+  }
+}

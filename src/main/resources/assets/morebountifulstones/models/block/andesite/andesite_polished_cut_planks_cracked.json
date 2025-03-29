@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "morebountifulstones:block/andesite/andesite_polished_cut_planks_cracked"
+  }
+}

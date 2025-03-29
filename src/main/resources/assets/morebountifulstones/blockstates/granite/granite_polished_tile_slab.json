@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/granite/granite_polished_tile_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/granite/granite_polished_tiles"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/granite/granite_polished_tile_slab_top"
+    }
+  }
+}

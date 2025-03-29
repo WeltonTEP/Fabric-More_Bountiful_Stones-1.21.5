@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "morebountifulstones:block/granite/granite_polished_carved_mosaic_pillar_top",
+    "side": "morebountifulstones:block/granite/granite_polished_carved_mosaic_pillar"
+  }
+}

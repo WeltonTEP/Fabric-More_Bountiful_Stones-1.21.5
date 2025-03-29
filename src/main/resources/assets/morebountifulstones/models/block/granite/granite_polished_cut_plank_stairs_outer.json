@@ -1,0 +1,9 @@
+
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "morebountifulstones:block/granite/granite_polished_cut_planks",
+    "side": "morebountifulstones:block/granite/granite_polished_cut_planks",
+    "top": "morebountifulstones:block/granite/granite_polished_cut_planks"
+  }
+}

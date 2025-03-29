@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "morebountifulstones:block/granite/granite_smooth"
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "morebountifulstones:block/diorite/diorite_polished_cut_planks",
+    "side": "morebountifulstones:block/diorite/diorite_polished_cut_planks",
+    "top": "morebountifulstones:block/diorite/diorite_polished_cut_planks"
+  }
+}

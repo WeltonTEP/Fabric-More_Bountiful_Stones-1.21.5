@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/andesite/andesite_cobbled_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/andesite/andesite_cobbled"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/andesite/andesite_cobbled_slab_top"
+    }
+  }
+}

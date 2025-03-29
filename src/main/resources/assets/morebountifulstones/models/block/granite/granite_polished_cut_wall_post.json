@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "morebountifulstones:block/granite/granite_polished_cut"
+  }
+}

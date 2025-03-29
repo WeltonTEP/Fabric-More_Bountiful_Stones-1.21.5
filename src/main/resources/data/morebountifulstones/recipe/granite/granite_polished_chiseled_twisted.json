@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#":
+       "minecraft:polished_granite_slab"
+
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "morebountifulstones:granite/granite_polished_chiseled_twisted"
+  }
+}

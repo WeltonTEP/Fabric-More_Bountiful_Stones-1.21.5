@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_shingle_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_shingles"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_shingle_slab_top"
+    }
+  }
+}

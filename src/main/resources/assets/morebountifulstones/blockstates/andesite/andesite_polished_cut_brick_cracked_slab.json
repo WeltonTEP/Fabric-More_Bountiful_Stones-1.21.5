@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_cut_brick_cracked_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_cut_bricks_cracked"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_cut_brick_cracked_slab_top"
+    }
+  }
+}

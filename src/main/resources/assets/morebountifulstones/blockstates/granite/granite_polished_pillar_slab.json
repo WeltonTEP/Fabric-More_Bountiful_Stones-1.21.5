@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/granite/granite_polished_pillar_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/granite/granite_polished_pillar_slab_double"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/granite/granite_polished_pillar_slab_top"
+    }
+  }
+}

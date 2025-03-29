@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#":
+       "morebountifulstones:andesite/andesite_polished_carved_dent"
+
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "morebountifulstones:andesite/andesite_polished_carved_dent_slab"
+  }
+}

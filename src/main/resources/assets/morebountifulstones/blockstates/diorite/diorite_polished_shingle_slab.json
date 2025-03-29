@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_shingle_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_shingles"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/diorite/diorite_polished_shingle_slab_top"
+    }
+  }
+}

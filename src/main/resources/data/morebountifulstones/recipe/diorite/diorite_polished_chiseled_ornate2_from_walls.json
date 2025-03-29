@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#":
+       "morebountifulstones:diorite/diorite_polished_chiseled_ornate2_wall"
+
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "id": "morebountifulstones:diorite/diorite_polished_chiseled_ornate2"
+  }
+}

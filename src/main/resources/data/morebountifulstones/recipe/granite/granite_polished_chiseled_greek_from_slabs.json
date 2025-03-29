@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#":
+       "morebountifulstones:granite/granite_polished_chiseled_greek_slab"
+
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "morebountifulstones:granite/granite_polished_chiseled_greek"
+  }
+}

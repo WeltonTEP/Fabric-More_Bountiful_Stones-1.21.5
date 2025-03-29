@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "morebountifulstones:block/granite/granite_polished_cut_bricks_braided2",
+    "side": "morebountifulstones:block/granite/granite_polished_cut_bricks_braided2",
+    "top": "morebountifulstones:block/granite/granite_polished_cut_bricks_braided2"
+  }
+}

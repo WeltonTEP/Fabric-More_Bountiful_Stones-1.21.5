@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_chiseled_pyramid_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_chiseled_pyramid"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_chiseled_pyramid_slab_top"
+    }
+  }
+}

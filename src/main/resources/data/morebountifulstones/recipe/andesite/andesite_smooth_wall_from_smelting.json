@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient":
+     "minecraft:andesite_wall"
+  ,
+  "result": {
+    "id": "morebountifulstones:andesite/andesite_smooth_wall"
+  }
+}

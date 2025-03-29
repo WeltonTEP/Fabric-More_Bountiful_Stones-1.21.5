@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "morebountifulstones:block/andesite/andesite_polished_pillar2_top",
+    "side": "morebountifulstones:block/andesite/andesite_polished_pillar2"
+  }
+}

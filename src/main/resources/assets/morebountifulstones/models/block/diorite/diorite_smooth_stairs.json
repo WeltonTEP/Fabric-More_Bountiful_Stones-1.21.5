@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "morebountifulstones:block/diorite/diorite_smooth",
+    "side": "morebountifulstones:block/diorite/diorite_smooth",
+    "top": "morebountifulstones:block/diorite/diorite_smooth"
+  }
+}

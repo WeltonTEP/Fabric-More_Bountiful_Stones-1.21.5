@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_cut_tile_pillar_horizontal_x"
+    },
+    "axis=y": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_cut_tile_pillar"
+    },
+    "axis=z": {
+      "model": "morebountifulstones:block/andesite/andesite_polished_cut_tile_pillar_horizontal_z"
+    }
+  }
+}

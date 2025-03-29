@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient":
+     "morebountifulstones:granite/granite_polished_cut"
+  ,
+  "result": {
+    "count": 1,
+    "id": "morebountifulstones:granite/granite_polished_cut_tiles"
+  }
+}

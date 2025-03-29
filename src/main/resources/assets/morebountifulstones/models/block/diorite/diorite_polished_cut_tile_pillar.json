@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "morebountifulstones:block/diorite/diorite_polished_cut_tile_pillar_top",
+    "side": "morebountifulstones:block/diorite/diorite_polished_cut_tile_pillar"
+  }
+}

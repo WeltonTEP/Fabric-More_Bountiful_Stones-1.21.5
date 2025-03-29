@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#":
+       "morebountifulstones:diorite/diorite_polished_carved_mosaic"
+
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "morebountifulstones:diorite/diorite_polished_carved_mosaic_slab"
+  }
+}

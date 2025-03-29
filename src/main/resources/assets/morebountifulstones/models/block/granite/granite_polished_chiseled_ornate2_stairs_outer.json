@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "morebountifulstones:block/granite/granite_polished_chiseled_ornate2",
+    "side": "morebountifulstones:block/granite/granite_polished_chiseled_ornate2",
+    "top": "morebountifulstones:block/granite/granite_polished_chiseled_ornate2"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "morebountifulstones:block/andesite/andesite_polished_large_bricks_cracked",
+    "side": "morebountifulstones:block/andesite/andesite_polished_large_bricks_cracked",
+    "top": "morebountifulstones:block/andesite/andesite_polished_large_bricks_cracked"
+  }
+}

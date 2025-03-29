@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/diorite/diorite_cobbled_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/diorite/diorite_cobbled"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/diorite/diorite_cobbled_slab_top"
+    }
+  }
+}

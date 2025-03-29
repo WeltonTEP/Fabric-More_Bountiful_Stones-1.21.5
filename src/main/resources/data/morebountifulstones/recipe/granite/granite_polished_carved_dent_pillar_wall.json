@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#":
+       "morebountifulstones:granite/granite_polished_carved_dent_pillar"
+
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "morebountifulstones:granite/granite_polished_carved_dent_pillar_wall"
+  }
+}

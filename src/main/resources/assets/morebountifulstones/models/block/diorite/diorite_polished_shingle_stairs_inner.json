@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "morebountifulstones:block/diorite/diorite_polished_shingles",
+    "side": "morebountifulstones:block/diorite/diorite_polished_shingles",
+    "top": "morebountifulstones:block/diorite/diorite_polished_shingles"
+  }
+}

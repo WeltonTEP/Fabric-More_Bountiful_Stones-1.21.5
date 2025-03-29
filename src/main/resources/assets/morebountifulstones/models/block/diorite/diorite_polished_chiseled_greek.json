@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "morebountifulstones:block/diorite/diorite_polished_chiseled_greek_top",
+    "side": "morebountifulstones:block/diorite/diorite_polished_chiseled_greek"
+  }
+}

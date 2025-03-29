@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:incorrect_for_iron_tool"
+    ],
+  "remove": [
+    "morebountifulstones:needs_emerald_tool"
+  ]
+}

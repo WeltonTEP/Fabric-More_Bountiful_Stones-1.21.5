@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mossy_stone_bricks",
+  "ingredients": [
+
+       "morebountifulstones:diorite/diorite_cobbled"
+    ,
+
+       "minecraft:clay_ball"
+
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:polished_diorite"
+  }
+}

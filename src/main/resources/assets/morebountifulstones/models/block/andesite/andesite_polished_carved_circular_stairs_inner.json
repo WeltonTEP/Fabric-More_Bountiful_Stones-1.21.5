@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "morebountifulstones:block/andesite/andesite_polished_carved_circular",
+    "side": "morebountifulstones:block/andesite/andesite_polished_carved_circular",
+    "top": "morebountifulstones:block/andesite/andesite_polished_carved_circular"
+  }
+}

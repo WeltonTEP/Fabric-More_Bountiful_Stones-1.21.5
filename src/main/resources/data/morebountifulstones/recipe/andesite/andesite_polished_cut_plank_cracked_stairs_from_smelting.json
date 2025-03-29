@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "morebountifulstones:andesite/andesite_polished_cut_plank_stairs",
+  "result": {
+    "id": "morebountifulstones:andesite/andesite_polished_cut_plank_cracked_stairs"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "morebountifulstones:block/granite/granite_polished_cut_bricks"
+  }
+}
