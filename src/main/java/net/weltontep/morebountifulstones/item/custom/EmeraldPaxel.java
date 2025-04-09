@@ -1,5 +1,7 @@
 package net.weltontep.morebountifulstones.item.custom;
 
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
@@ -125,7 +127,7 @@ public class EmeraldPaxel extends Item {
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
             }
-        };
+        }
 
         if(ANDESITE_BLOCK_CHISEL_MAP2.containsKey(clickedBlock)) {
             if (!world.isClient()) {
@@ -137,7 +139,7 @@ public class EmeraldPaxel extends Item {
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
             }
-        };
+        }
 
         if(DIORITE_BLOCK_CHISEL_MAP.containsKey(clickedBlock)) {
             if (!world.isClient()) {
@@ -149,7 +151,7 @@ public class EmeraldPaxel extends Item {
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
             }
-        };
+        }
 
         if(DIORITE_BLOCK_CHISEL_MAP2.containsKey(clickedBlock)) {
             if (!world.isClient()) {
@@ -161,7 +163,7 @@ public class EmeraldPaxel extends Item {
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
             }
-        };
+        }
 
         if(GRANITE_BLOCK_CHISEL_MAP.containsKey(clickedBlock)) {
             if (!world.isClient()) {
@@ -173,7 +175,7 @@ public class EmeraldPaxel extends Item {
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
             }
-        };
+        }
 
         if(GRANITE_BLOCK_CHISEL_MAP2.containsKey(clickedBlock)) {
             if (!world.isClient()) {
@@ -191,10 +193,9 @@ public class EmeraldPaxel extends Item {
 
     }
 
-    @Override
+    @Environment(EnvType.CLIENT)
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("tooltip.morebountifulstones.emerald_paxel.tooltip"));
         tooltip.add(Text.translatable("tooltip.morebountifulstones.emerald_paxel.tooltip2"));
-        super.appendTooltip(stack, world, tooltip, context);
     }
 }
