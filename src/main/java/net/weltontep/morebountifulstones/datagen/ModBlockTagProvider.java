@@ -17,6 +17,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_EMERALD_TOOL)
-        .addTag(BlockTags.NEEDS_IRON_TOOL);
+        .forceAddTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }
