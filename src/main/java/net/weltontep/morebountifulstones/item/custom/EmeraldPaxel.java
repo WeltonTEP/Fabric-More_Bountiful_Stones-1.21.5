@@ -6,7 +6,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.item.ToolMaterial;
-import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
@@ -20,6 +19,7 @@ import net.weltontep.morebountifulstones.block.GraniteBlocks;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 import static net.weltontep.morebountifulstones.item.ModToolMaterials.EMERALD;
 
@@ -106,12 +106,8 @@ public class EmeraldPaxel extends Item {
             );
     private static final ToolMaterial material = EMERALD;
 
-    public EmeraldPaxel(float attackDamage, float attackSpeed, Settings settings) {
-        super(material, attackDamage, attackSpeed, settings);
-    }
-
     public EmeraldPaxel(int attackDamage, float attackSpeed, Item.Settings emeraldPaxel) {
-        super(material);
+        super(new Settings());
     }
 
     @Override
@@ -124,7 +120,7 @@ public class EmeraldPaxel extends Item {
                 world.setBlockState(context.getBlockPos(), ANDESITE_BLOCK_CHISEL_MAP.get(clickedBlock).getDefaultState());
 
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
-                        item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
+                        item -> Objects.requireNonNull(context.getPlayer()).sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
@@ -136,7 +132,7 @@ public class EmeraldPaxel extends Item {
                 world.setBlockState(context.getBlockPos(), ANDESITE_BLOCK_CHISEL_MAP2.get(clickedBlock).getDefaultState());
 
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
-                        item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
+                        item -> Objects.requireNonNull(context.getPlayer()).sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
@@ -148,7 +144,7 @@ public class EmeraldPaxel extends Item {
                 world.setBlockState(context.getBlockPos(), DIORITE_BLOCK_CHISEL_MAP.get(clickedBlock).getDefaultState());
 
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
-                        item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
+                        item -> Objects.requireNonNull(context.getPlayer()).sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
@@ -160,7 +156,7 @@ public class EmeraldPaxel extends Item {
                 world.setBlockState(context.getBlockPos(), DIORITE_BLOCK_CHISEL_MAP2.get(clickedBlock).getDefaultState());
 
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
-                        item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
+                        item -> Objects.requireNonNull(context.getPlayer()).sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
@@ -172,7 +168,7 @@ public class EmeraldPaxel extends Item {
                 world.setBlockState(context.getBlockPos(), GRANITE_BLOCK_CHISEL_MAP.get(clickedBlock).getDefaultState());
 
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
-                        item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
+                        item -> Objects.requireNonNull(context.getPlayer()).sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
@@ -184,7 +180,7 @@ public class EmeraldPaxel extends Item {
                 world.setBlockState(context.getBlockPos(), GRANITE_BLOCK_CHISEL_MAP2.get(clickedBlock).getDefaultState());
 
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
-                        item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
+                        item -> Objects.requireNonNull(context.getPlayer()).sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS);
 
@@ -196,9 +192,9 @@ public class EmeraldPaxel extends Item {
     }
 
     @Override
-    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+    public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("tooltip.morebountifulstones.emerald_paxel.tooltip"));
         tooltip.add(Text.translatable("tooltip.morebountifulstones.emerald_paxel.tooltip2"));
-        super.appendTooltip(stack, context, tooltip, type);
+        super.appendTooltip(stack, world, tooltip, context);
     }
 }
